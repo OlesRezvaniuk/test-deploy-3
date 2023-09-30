@@ -16,7 +16,7 @@ function App() {
       </button>
       <button
         onClick={() => {
-          value >= 1 && setValue(value - 1);
+          value >= 2 && setValue(value - 1);
         }}
       >
         -1
