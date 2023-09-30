@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(1);
   return (
     <>
       <p>{value}</p>
